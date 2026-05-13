@@ -1,0 +1,30 @@
+{
+  "dataset": "Store Sales — Time Series Forecasting (Favorita)",
+  "window_size": 8,
+  "train_ratio": 0.8,
+  "store_nbr": null,
+  "family": "GROCERY I",
+  "epochs_trained": 24,
+  "best_val_loss": 0.014344222843647003,
+  "lstm_metrics": {
+    "Модель": "LSTM",
+    "MAE": 112505.0,
+    "RMSE": 134933.03,
+    "MAPE (%)": 6.53,
+    "R²": -0.2153
+  },
+  "lr_metrics": {
+    "Модель": "Linear Regression",
+    "MAE": 99491.34,
+    "RMSE": 120518.32,
+    "MAPE (%)": 5.69,
+    "R²": 0.0305
+  },
+  "arima_metrics": {
+    "Модель": "ARIMA(5,1,0)",
+    "MAE": 200641.47,
+    "RMSE": 230367.82,
+    "MAPE (%)": 11.28,
+    "R²": -2.5422
+  }
+}
